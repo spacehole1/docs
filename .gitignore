@@ -1,3 +1,101 @@
-_site/
-.sass-cache/
-site/
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+.vs
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+.vscode/
+
+#MonoDevelop files
+*.userprefs
+*.pidb
+*~
+
+#Webstorm files
+.idea/
+
+#Tooling
+_ReSharper*/
+*.resharper
+.fake/
+
+#Project files
+[Bb]uild/*
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+
+#build artifacts
+deploy/
+reports/
+merged/
+test/
+Documentation-*/
+Output/
+
+#nCrunch files
+*.crunchproject.local.xml
+*.crunchsolution.local.xml
+
+#nuget stuff
+*.nupkg
+src/Pickles/packages/
+src/Pickles/Pickles.1.2.dotCover
+
+#TestRunner stuff
+src/Pickles/TestResults/
+src/Pickles/PrecompiledWeb/
+.merge_file_*
+
+
+# FAKE stuff
+packages/FAKE/
+packages/Chocolatey/
+packages/NUnit.ConsoleRunner/
+
+# Fody
+!src/Pickles/packages/Fody*/build/*
+src/Pickles/.vs/config/applicationhost.config
+src/Pickles/Pickles/PortabilityAnalysis.html
+src/Pickles/.vs/config/applicationhost.config
+TestResult.xml
+
+# test harness
+test-harness/packages/
+node_modules/
+
+#include output docs
+!docs/Output/
+src/Pickles/.vs/config/applicationhost.config
